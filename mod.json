@@ -1,0 +1,9 @@
+{
+	"name": "Animations_Reexport",
+	"version": "0.0.24",
+	"label": "0 A.D. Empires Ascendant",
+	"url": "play0ad.com",
+	"description": ".",
+	"dependencies": ["0ad=0.0.24"],
+	"type": "Content mod"
+}
