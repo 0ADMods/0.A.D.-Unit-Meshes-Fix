@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <variant name="syntagma_back" frequency="0">
   <animations>
-    <animation file="biped/infantry/pikeman/idle_relax.dae" name="idle" id="syntagmaidle" speed="30"/>
-    <animation file="biped/infantry/pikeman/walk_relax.dae" name="walk" id="syntagmawalk" speed="30"/>
-    <animation file="biped/infantry/pikeman/jog_relax.dae" name="run" id="syntagmarun" speed="10"/>
+    <animation file="biped/infantry/pikeman/idle_ready.dae" name="idle" id="syntagmaidle" speed="30"/>
+    <animation file="biped/infantry/pikeman/walk_ready_syntagma_b.dae" name="walk" id="syntagmawalk" speed="30"/>
+    <animation file="biped/infantry/pikeman/jog_ready.dae" name="run" id="syntagmarun" speed="10"/>
   </animations>
 </variant>
