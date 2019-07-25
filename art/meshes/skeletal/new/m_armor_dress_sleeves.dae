@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.80.54 commit date:2019-04-06, commit time:12:26, hash:cc73d59ad580</authoring_tool>
     </contributor>
-    <created>2019-07-23T20:26:57</created>
-    <modified>2019-07-23T20:26:57</modified>
+    <created>2019-07-24T20:24:49</created>
+    <modified>2019-07-24T20:24:49</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -647,6 +647,17 @@
                   </technique>
                 </extra>
               </node>
+              <node id="Biped_prop_leg_L" name="prop_leg_L" sid="prop_leg_L" type="JOINT">
+                <matrix sid="transform">0.9962695 0.02831567 0.08152092 0.00256604 0.07639659 0.1499681 -0.9857349 0.4698756 -0.04013728 0.9882853 0.1472453 0.08838936 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">3</layer>
+                    <tip_x sid="tip_x" type="float">0</tip_x>
+                    <tip_y sid="tip_y" type="float">0.4153462</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
+                  </technique>
+                </extra>
+              </node>
               <extra>
                 <technique profile="blender">
                   <connect sid="connect" type="bool">1</connect>
@@ -676,6 +687,17 @@
                     <tip_x sid="tip_x" type="float">-0.01612919</tip_x>
                     <tip_y sid="tip_y" type="float">-0.4718034</tip_y>
                     <tip_z sid="tip_z" type="float">-0.08624839</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Biped_prop_leg_R" name="prop_leg_R" sid="prop_leg_R" type="JOINT">
+                <matrix sid="transform">0.9964925 -0.02186084 -0.08077634 -0.002135724 -0.07661282 0.1499734 -0.9857171 0.4698759 0.03366291 0.9884482 0.1477726 0.08840088 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">3</layer>
+                    <tip_x sid="tip_x" type="float">0</tip_x>
+                    <tip_y sid="tip_y" type="float">0.4153462</tip_y>
+                    <tip_z sid="tip_z" type="float">0</tip_z>
                   </technique>
                 </extra>
               </node>
