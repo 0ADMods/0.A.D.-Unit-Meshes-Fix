@@ -3,12 +3,14 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_armor_tunic_short_med_sleeves.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/rome_helmet_attic.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/gladus.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/rome_scutum_e.xml" attachpoint="shield"/>
+        <prop actor="props/units/armor/greave_06_bronze_r.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/greave_06_bronze_l.xml" attachpoint="leg_L"/>
       </props>
     </variant>
   </group>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<variant name="syntagma_center" frequency="0">
-  <animations>
-    <animation file="biped/infantry/pikeman/idle_relax.dae" name="Idle" id="syntagmaidle" speed="30"/>
-    <animation file="biped/infantry/pikeman/walk_ready_syntagma.dae" name="Walk" id="syntagmawalk" speed="30"/>
-    <animation file="biped/infantry/pikeman/run_ready.dae" name="Run" id="syntagmarun" speed="10"/> 
-  </animations>
-</variant>

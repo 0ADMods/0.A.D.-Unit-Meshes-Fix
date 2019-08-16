@@ -2,7 +2,7 @@
 <variant name="syntagma_back" frequency="0">
   <animations>
     <animation file="biped/infantry/pikeman/idle_ready.dae" name="idle" id="syntagmaidle" speed="30"/>
-    <animation file="biped/infantry/pikeman/walk_ready_syntagma_b.dae" name="walk" id="syntagmawalk" speed="30"/>
+    <animation file="biped/formations/syntagma/walk_relax_back.dae" name="walk" id="syntagmawalk" speed="30"/>
     <animation file="biped/infantry/pikeman/jog_ready.dae" name="run" id="syntagmarun" speed="10"/>
   </animations>
 </variant>
